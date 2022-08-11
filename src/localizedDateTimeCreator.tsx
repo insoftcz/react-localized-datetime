@@ -1,3 +1,4 @@
+import { createElement, Fragment, ReactNode } from "react";
 import { useDateTimeLocalizationContext } from "./DateTimeLocalizationContext";
 
 const typeToMethodMap: Record<
@@ -11,12 +12,16 @@ const typeToMethodMap: Record<
 
 const localizedDateTimeCreator =
   (type: "date" | "time" | "datetime") =>
-  ({ children }: { children: string }) => {
+  ({ children }: { children: string }): ReactNode => {
     const lang = useDateTimeLocalizationContext();
 
     const localized = new Date(children)[typeToMethodMap[type]](lang);
 
-    return localized === "Invalid Date" ? "" : localized;
+    return createElement(
+      Fragment,
+      {},
+      localized === "Invalid Date" ? "" : localized
+    );
   };
 
 export default localizedDateTimeCreator;

@@ -1,4 +1,4 @@
-import localizedDateTimeCreator from "./LocalizedDateTimeCreator";
+import localizedDateTimeCreator from "./localizedDateTimeCreator";
 
 const LocalizedDate = localizedDateTimeCreator("date");
 
