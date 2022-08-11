@@ -1,0 +1,36 @@
+{
+  "name": "react-localized-datetime",
+  "version": "0.0.1",
+  "description": "React library exposing components that converts string time to format defined in context",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.insoft.cz/insoft/react-localized-datetime"
+  },
+  "keywords": [
+    "react",
+    "datetime",
+    "localization",
+    "date",
+    "tiem"
+  ],
+  "author": "INSOFT s.r.o.",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@vitejs/plugin-react": "^2.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.5",
+    "vite-plugin-dts": "^1.4.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
