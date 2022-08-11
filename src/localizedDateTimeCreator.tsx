@@ -12,7 +12,7 @@ const typeToMethodMap: Record<
 
 const localizedDateTimeCreator =
   (type: "date" | "time" | "datetime") =>
-  ({ children }: { children: string }): ReactNode => {
+  ({ children }: { children: string }) => {
     const lang = useDateTimeLocalizationContext();
 
     const localized = new Date(children)[typeToMethodMap[type]](lang);
