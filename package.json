@@ -1,6 +1,6 @@
 {
   "name": "react-localized-datetime",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React library exposing components that converts string time to format defined in context",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
