@@ -30,7 +30,7 @@ import { LocalizedTime, LocalizedDateTime } from 'react-localized-datetime';
 
 ...
 
-    <LocalizedDateTime>11/08/2022 16:20:00</LocalizedDateTime>
+    <LocalizedDateTime>2022-08-11 16:20:00</LocalizedDateTime>
 
 ...
 
