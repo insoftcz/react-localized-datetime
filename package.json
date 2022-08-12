@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.insoft.cz/insoft/react-localized-datetime"
+    "url": "https://github.com/insoftcz/react-localized-datetime"
   },
   "keywords": [
     "react",
