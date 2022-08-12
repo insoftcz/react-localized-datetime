@@ -23,7 +23,7 @@
     "time"
   ],
   "author": "INSOFT s.r.o.",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "@vitejs/plugin-react": "^2.0.0",
