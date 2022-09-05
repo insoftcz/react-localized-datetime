@@ -33,6 +33,6 @@
     "vite-plugin-dts": "^1.4.1"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   }
 }
