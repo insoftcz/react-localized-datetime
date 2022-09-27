@@ -5,7 +5,7 @@
 
 First you need to add language provider somewhere into your project
 
-```react
+```typescript jsx
 // App.tsx
 
 
@@ -24,7 +24,7 @@ import { DateTimeLocalizationProvider } from 'react-localized-datetime';
 
 and then you just wrap the time string in localization component: 
 
-```react
+```typescript jsx
 import { LocalizedTime, LocalizedDateTime } from 'react-localized-datetime';
 
 
