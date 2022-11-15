@@ -12,7 +12,7 @@ const typeToMethodMap: Record<
 
 const localizedDateTimeCreator =
   (type: "date" | "time" | "datetime") =>
-  ({ children }: { children: string }) => {
+  ({ children }: { children: ConstructorParameters<typeof Date>[0] }) => {
     const lang = useDateTimeLocalizationContext();
 
     const localized = new Date(children)[typeToMethodMap[type]](lang);
