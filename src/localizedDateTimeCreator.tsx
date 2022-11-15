@@ -1,4 +1,4 @@
-import { createElement, Fragment, ReactNode } from "react";
+import { createElement, Fragment } from "react";
 import { useDateTimeLocalizationContext } from "./DateTimeLocalizationContext";
 
 const typeToMethodMap: Record<
